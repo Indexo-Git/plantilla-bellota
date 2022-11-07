@@ -1,0 +1,17 @@
+<div class="route-bar">
+    <div class="topbar-icons">
+        <ul class="ul-menu-icons">
+            <li class="li-menu-icons">
+                <a href="#" id="topbar-sidebar-button" (click)="app.onMenuButtonClick($event)">
+                    <i class="pi pi-bars menu-icons"></i>
+                </a>
+            </li>
+                <span class="username">{{usuario.firstName}}</span>
+            <li (click)="logout()" class="li-menu-icons">
+                <a>
+                    <i class="pi pi-sign-out topbar-icon-calendar menu-icons"></i>
+                </a>
+            </li>
+        </ul>
+    </div>
+</div>
